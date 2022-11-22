@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 입력 태그</title>
+</head>
+<body>
+    <!-- 폼태그를 감싼다. -->
+    <form action="#">
+        <!-- 일반 텍스트 창 -->
+        <div>
+        <label for="name">이름</label>
+        <input type="text" id="name" value="길동">
+     </div>
+
+     <div>
+        <label for="name">이름</label>
+        <input type="text" id="name" placeholder="이메일..."required>
+     </div>
+
+    </div>
+    <div>
+        <label for="message">메세지</label>
+    
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+     </div>
+     <div> <label for="radio" name="membership">심플</label>
+        <label for="radio" name="membership"></label>
+        <label for="radio" name="membership">슈퍼</label>
+     </div>
+
+     <div>
+        <select name="gender" id="gender">
+
+        <label for="gender">성별</label>
+        <option value="male">남성</option>
+        <option value="female">여성</option>
+    </select>
+    <div>
+        <!-- 나이 -->
+        <div> <label for="age">나이</label>
+            <input type="date" id="borthday">
+        
+        
+        </div>
+    </div>
+    
+    </div>
+    <div>
+        <label for="birthday"></label>
+    </div>
+
+    <div><label for="">멤버쉽</label>
+    <input type="radio"> name= 심플 </div>
+
+    <button></button>
+
+    <!-- 리셋버튼 -->
+    <button type="reset">리셋</button>
+    </form>
+</body>
+</html>
